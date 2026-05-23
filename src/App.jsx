@@ -152,7 +152,7 @@ function App() {
                   playsInline
                   className="w-full h-full object-cover"
                 >
-                  <source src="/src/assets/hero.mp4" type="video/mp4" />
+                  <source src="/videos/hero.mp4" type="video/mp4" />
                 </video>
 
               </div>
