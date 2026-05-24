@@ -145,16 +145,13 @@ function App() {
               
               <div className="w-full h-full rounded-[30px] bg-[#111111] flex items-center justify-center overflow-hidden">
                 
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
+                <img
+                  src="/gif/hero.gif"
+                  alt="Matheus Assis"
                   className="w-full h-full object-cover"
-                >
-                  <source src="/videos/hero.mp4" type="video/mp4" />
-                </video>
-
+                />
+            
+                
               </div>
             </div>
 
