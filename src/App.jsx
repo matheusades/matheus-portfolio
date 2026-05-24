@@ -3,6 +3,7 @@ import { useState } from "react";
 import mica1 from "../src/assets/mica1.jpg";
 import clip1 from "../src/assets/clip1.gif";
 import ilus1 from "../src/assets/ilus1.gif";
+import heroGif from "./assets/hero.gif";
 
 const projects = [
   {
@@ -146,7 +147,7 @@ function App() {
               <div className="w-full h-full rounded-[30px] bg-[#111111] flex items-center justify-center overflow-hidden">
                 
                 <img
-                  src="/gif/hero.gif"
+                  src={heroGif}
                   alt="Matheus Assis"
                   className="w-full h-full object-cover"
                 />
